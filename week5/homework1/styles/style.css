@@ -1,0 +1,93 @@
+* {
+    font-family: "Rubik Wet Paint", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 1100px;
+    height: 500px;
+    flex-wrap: wrap;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #f0f0f0;
+    width: 1100px;
+    height: 350px;
+}
+
+.header {
+    display: block;
+    background-color: #d3d3d3;
+    justify-content: center;
+    width: 1100px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px; 
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 800px;
+    height: 300px;
+    background-color: #fff7db;
+    text-align: center;
+}
+
+p {
+    width: 800px;
+    height: 80px;
+}
+.more {
+    width: 370px;
+    height: 70px;
+    background-color: #ffeba1;
+    text-align: center;
+    margin: 5px;
+    line-height: 70px
+}
+.more1 {
+    width: 770px;
+    height: 70px;
+    background-color: #ffeba1;
+    text-align: center;
+    margin: 5px;
+    line-height: 70px
+}
+.right {
+    background-color: rgb(199, 240, 199);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    line-height: 100px
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #dddcdc;
+    width: 1100px;
+    height: 150px;
+}
+
+.foo {
+    background-color: white;
+    text-align: center;
+    margin: 15px;
+    padding: 50px;
+    font-size: 14px;
+}

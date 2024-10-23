@@ -1,0 +1,49 @@
+h2 {
+    color: blue;
+    font-size: 25px;
+}
+header {
+    width: 280px;
+    height: 200px;
+}
+* {
+    outline: 1px solid red
+}
+    .container {
+        border: 1px solid blue;
+        border-radius: 20px;
+    }
+    .title {
+        color: blueviolet;
+    }
+    .link {
+        text-decoration: none;
+    }
+    #wrapper {
+        border: 1px solid black;
+    }
+    #subtitle {
+        color: red;
+        font-size: 12px;
+    }
+    #link {
+        color: green;
+    }
+    .pseudo-classes:hover {
+        background-color: lightcoral;
+    }
+    h2.compaund-title {
+        color: brown;
+    }
+    header a {
+        text-decoration: green wavy underline;
+    }
+    footer > div > a  {
+        text-decoration: aquamarine wavy underline;
+    }
+    h2 + a {
+        color: red;
+    }
+    a ~ h2 {
+        color: blueviolet;
+    }

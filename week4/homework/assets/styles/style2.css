@@ -1,0 +1,117 @@
+body {
+    width: auto;
+    margin: 0;
+    padding: 0;
+    font-family: "Work Sans", "Roboto" sans-serif;
+    font-weight: 400;
+    font-size: 19px;
+}
+header {
+    color: #fff;
+    background-image: url(/week4/homework/assets/images/IMAGE.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+footer {
+    width: auto;
+    height: 469px;
+    background: #20201f;
+    line-height: 174%;
+    color: #e5e2de;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+}
+
+nav h2 {
+    position: absolute;
+    text-align: center;
+}
+.list2 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 725px;
+    background: #fff;
+}
+button {
+    width: 120px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;    
+}
+.tables {
+    width: 600px;
+    height: 466px;
+    background: #fff;
+}
+section.tables h2 {
+    display: list-item
+}
+.list3 {
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 840px;
+    background-color: #fff;
+}
+.form {
+    position: left;
+    width: 600px;
+    height: 462px;
+    background-color: #fff;
+}
+input {
+    width: 300px;
+    height: 40px;
+    border: color rgba(165, 168, 165, 0.87);
+    border-radius: 10px;
+}
+.form button {
+    width: 80px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.picture {
+    position: right;
+    width: 600px;
+    height: 840px;
+    background-image: url(week4\homework\assets\images\mramor.png);
+}
+button:active {
+    background-color: blueviolet;
+}
+svg:hover {
+    transform: translateX(10px) rotate(5deg);
+}
+.animation {
+    width: 50px;
+    height: 50px;
+    border-radius: 40%;
+    animation: heartbeat 1s infinite;
+}
+
+@keyframes heartbeat {
+    0% {
+    transform: scale(1);
+    }
+    50% {
+    transform: scale(1.2);
+    }
+    100% {
+    transform: scale(1);
+    }
+}
+.foot {
+    list-style-type: none;
+    display: flex;
+}
+.foot li {
+    list-style-type: none;
+    display: block;
+}

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://www.svgrepo.com/show/321201/paw.svg" type="svg">
+    <title>Расскажи о своём фамильяре</title>
+</head>
+<body>
+    <h1 style="color: brown;">Расскажи о своём фамильяре</h1>
+    <form method="post">
+        <div>
+            <label for="pet-name">Кличка</label></br>
+            <input type="text" id="pet-name" placeholder="Кличка питомца" required>
+        </div>
+        <div>
+            <label for="fio"></label>Владелец</br>
+            <input type="text" id="fio" placeholder="Имя и фамилия" required>
+        </div>
+        <div>
+            <label for="phone">Номер телефона</label></br>
+            <input type="tel" id="phone" placeholder="Телефон" required>
+        </div>
+        <div>
+            <label for="pet-type">Какое это животное?</label></br>
+            <select name="pet-type" id="pet-type" required>
+                <option value="" selected>Выберите</option>
+                <option value="cat">Кошка</option>
+                <option value="dog">Собака</option>
+                <option value="bird">Птица</option>
+                <option value="rabbit">Кролик</option>
+                <option value="rodent">Грызун</option>
+                <option value="amphibian">Земноводное</option>
+                <option value="insect">Насекомое</option>
+                <option value="reptile">Рептилия</option>
+                <option value="other">Другое</option>
+            </select>
+        </div>
+        <div>
+            <p>Чем кормить?</p>
+            <input type="checkbox" name="food" value="1">Сухим кормом</br>
+            <input type="checkbox" name="food" value="2">Влажным кормом</br>
+            <input type="checkbox" name="food" value="3">Натуралкой</br>
+            <input type="checkbox" name="food" value="4">Кровью</br>
+            <input type="checkbox" name="food" value="5">Росой</br>
+            <input type="checkbox" name="food" value="6">Амброй</br>
+            <input type="checkbox" name="food" value="7">Другое, накормлю сама</br>
+        </div></br>
+        <div>
+            <label>Пол</label></br>
+            <input type="radio" name="pet-gender" value="male" id="gender-male">
+            <label for="gender-male">Мальчик</label>
+            <input type="radio" name="pet-gender" value="female" id="gender-female">
+            <label for="gender-female">Девочка</label>
+        </div></br>
+        <div>
+            <label for="comment">Комментарий</label></br>
+            <textarea name="comment" id="comment" rows="5" cols="50" placeholder="Всё, что считаешь нужным добавить"></textarea>
+        </div></br>
+        <div>
+            <label for="photo">Фото помощника</label></br>
+            <input type="file" id="photo" name="pet-photo">
+        </div></br>
+        <div>
+            <button type="submit">Отправить</button>
+            <button type="reset">Сбросить</button>
+        </div></br>
+    </form>
+</body>
+</html>
