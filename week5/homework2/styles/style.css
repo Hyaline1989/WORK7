@@ -1,0 +1,143 @@
+* {
+  font-family: "Cormorant Unicase", serif;
+  font-weight: 700;
+  font-style: normal;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin: 0;
+  background: linear-gradient(to bottom, #4B0082, #FFFFFF);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  height: 15vh;
+  text-align: center;
+}
+
+.logo {
+  max-width: 100px; 
+  height: auto;
+}
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 1rem 0;
+  margin-top: 20px;
+}
+
+.li1 {
+  list-style-type: none;
+  margin: 0;
+}
+
+.li {
+  list-style-type: none;
+  padding: 0 15px;
+  font-size: larger;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.article {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start; 
+  justify-content: flex-start; 
+  width: 80%;
+  max-width: 1500px;
+  height: auto;
+  padding: 10px; 
+  margin: 10px 0;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 10px;
+}
+
+.stella {
+  max-width: 45%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column; 
+  justify-content: flex-start;
+  margin-left: 15px;
+}
+
+h3 {
+  margin: 0;
+  padding-bottom: 10px;
+  font-size: 1.5em;
+  font-weight: 700;
+}
+
+.magicwands, .hat, .dresses, .chokers, .pets {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 1rem;
+  width: 100%;
+  max-width: 1000px;
+  margin: 1rem 0;
+}
+
+.magicwands img, 
+.hat-img, 
+.dresses img, 
+.chokers img, 
+.pets img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.tooltip {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip .tooltip-text {
+  visibility: hidden;
+  width: 300px;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: #fff;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  position: absolute;
+  z-index: 1;
+  bottom: 100%;
+  left: 20%;
+  margin-left: -60px;
+}
+
+.tooltip:hover .tooltip-text {
+  visibility: visible;
+}
+
+
+.footer {
+  display: flex;
+  height: 20%;
+}

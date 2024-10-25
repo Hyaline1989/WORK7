@@ -1,0 +1,18 @@
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 200 200"
+    width="200"
+    height="200">
+
+    <!-- Луна -->
+    <circle cx="100" cy="100" r="40" fill="#333" /> <!-- Темная луна -->
+    <circle cx="115" cy="90" r="40" fill="#fff" /> <!-- Вырез для создания эффекта полнолуния -->
+    
+    <!-- Птицы -->
+    <g fill="#000">
+        <path d="M30 60 Q35 55 40 60 Q35 57 30 60" stroke="#000" stroke-width="2" fill="none" />
+        <path d="M50 50 Q55 45 60 50 Q55 47 50 50" stroke="#000" stroke-width="2" fill="none" />
+        <path d="M170 70 Q175 65 180 70 Q175 67 170 70" stroke="#000" stroke-width="2" fill="none" />
+        <path d="M130 60 Q135 55 140 60 Q135 57 130 60" stroke="#000" stroke-width="2" fill="none" />
+    </g>
+</svg>
