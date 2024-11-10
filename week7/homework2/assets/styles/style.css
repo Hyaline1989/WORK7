@@ -36,7 +36,7 @@
 
 .aside {
     display: grid;
-    place-items: start center;;
+    place-items: start center;
     background-color: #D9EAD3;
     grid-column: 2/3;
     padding-top: 30px;
